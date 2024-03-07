@@ -1,9 +1,9 @@
 import { render } from '@testing-library/react';
 import App from '../App';
 
-describe('<App/> component', () => {
+describe('<App/> Component', () => {
 
-  it('renders', () => {
+  it('Renders Without Error', () => {
     render(<App />);
   });
 
